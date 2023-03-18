@@ -35,7 +35,6 @@ long long countSubarray(int N, vector<int> A, int M)
 };
 
 
-
 //{ Driver Code Starts.
 int main() {
     int t;
