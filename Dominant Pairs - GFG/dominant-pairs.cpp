@@ -10,7 +10,7 @@ using namespace std;
 
 class Solution{
 public:
-   int f(int k,int l , int h,vector<int>&v)
+    int f(int k,int l , int h,vector<int>&v)
     {
     
         int res=-1;
@@ -43,7 +43,7 @@ public:
             
         }
         return ans;
-    }  
+    }   
 };
 
 //{ Driver Code Starts.
