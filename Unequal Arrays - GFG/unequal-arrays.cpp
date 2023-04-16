@@ -30,7 +30,7 @@ public:
 // } Driver Code Ends
 class Solution {
   public:
-   long long solve(int N, vector<int> &A, vector<int> &B) {
+    long long solve(int N, vector<int> &A, vector<int> &B) {
         int s1=0,s2=0;
         vector<int> A1,A2,B1,B2;
         
