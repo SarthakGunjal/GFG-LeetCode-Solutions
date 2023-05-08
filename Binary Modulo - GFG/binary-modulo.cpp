@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution{
     public:
-       int modulo(string s,int m)
+             int modulo(string s,int m)
 {
        int ans=0;
 
@@ -30,8 +30,6 @@ class Solution{
        return ans;
        
 }
-
-
 };
 
 //{ Driver Code Starts.
