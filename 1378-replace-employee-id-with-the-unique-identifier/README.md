@@ -6,7 +6,7 @@
 | id            | int     |
 | name          | varchar |
 +---------------+---------+
-id is the primary key for this table.
+In SQL, id is the primary key for this table.
 Each row of this table contains the id and the name of an employee in a company.
 </pre>
 
@@ -20,17 +20,17 @@ Each row of this table contains the id and the name of an employee in a company.
 | id            | int     |
 | unique_id     | int     |
 +---------------+---------+
-(id, unique_id) is the primary key for this table.
+In SQL, (id, unique_id) is the primary key for this table.
 Each row of this table contains the id and the corresponding unique id of an employee in the company.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>Write an SQL query to show the <strong>unique ID </strong>of each user, If a user does not have a unique ID replace just show <code>null</code>.</p>
+<p>Show the <strong>unique ID </strong>of each user, If a user does not have a unique ID replace just show <code>null</code>.</p>
 
 <p>Return the result table in <strong>any</strong> order.</p>
 
-<p>The query result format is in the following example.</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
